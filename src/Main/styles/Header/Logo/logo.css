@@ -1,0 +1,11 @@
+.logo {
+  width: 293px;
+  height: 190px;
+  margin-top: 15px;
+  float: left; }
+  .logo a {
+    cursor: pointer;
+   }
+  .logo a img{
+    margin-top: 19px;
+  }

@@ -1,0 +1,36 @@
+.basket {
+  height: 145px;
+  margin-top: 16px;
+  width: 196px;
+  float: left;
+  padding-top: 44px; }
+  .basket li img {
+    float: left;
+    padding-right: 10px; }
+    .basket li img p {
+      float: right; }
+  .basket li p:nth-child(2) {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase; }
+  .basket li p:nth-child(3) {
+    font-size: 12px;
+    padding-top: 5px; }
+  .basket li:nth-child(2) {
+    margin-top: 20px;
+    width: 196px;
+    height: 45px; }
+  .basket li button {
+    background: #c29845;
+    cursor: pointer;
+    height: 45px;
+    width: 196px;
+    padding: 0px; }
+  .basket li a {
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    color: white;
+    height: 45px;
+    width: 190px;
+    text-transform: uppercase; }

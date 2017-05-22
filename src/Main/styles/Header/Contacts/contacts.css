@@ -1,0 +1,12 @@
+.contacts {
+  width: 269px;
+  height: 150px;
+  margin-top: 15px;
+  float: left;
+  padding-top: 40px; }
+  .contacts p {
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif; }
+    .contacts p a {
+      color: #333;
+      font-weight: 600; }
