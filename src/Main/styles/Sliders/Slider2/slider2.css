@@ -1,0 +1,27 @@
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
+.slider2-wrapper {
+  height: 215px;
+  background-color: #eae3ce; }
+  .slider2-wrapper .slider2 {
+    height: 215px;
+    width: 1280px;
+    min-width: 1140px;
+    margin: 0 auto; }
+    .slider2-wrapper .slider2 a {
+      float: left;
+      margin: 0 30px;
+      text-transform: uppercase;
+      color: black; }
+      .slider2-wrapper .slider2 a:first-child {
+        margin-left: 35px; }
+      .slider2-wrapper .slider2 a:hover {
+        color: #c29845; }
+
+img.prevArrow {
+  height: 17px;
+  width: 33px; }
+
+img.nextArrow {
+  height: 17px;
+  width: 33px; }

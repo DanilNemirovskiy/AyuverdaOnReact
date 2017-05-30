@@ -1,3 +1,13 @@
 {
-  "logo" : "./images/logo.png"
+  "logo" : "./images/logo.png",
+  "basket": "./images/basket.png",
+  "rect": "./images/rect.png",
+  "slider1" : "./images/slider1.jpg",
+  "slider-line" : "./images/slider-line.png",
+  "slider2_1" : "./images/slider2_1.png",
+  "slider2_2" : "./images/slider2_2.png",
+  "slider2_3" : "./images/slider2_3.png",
+  "slider2_4" : "./images/slider2_4.png",
+  "arrow_left" : "./images/arrow_left.png",
+  "arrow_right" : "./images/arrow_right.png"
 }

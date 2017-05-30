@@ -1,0 +1,58 @@
+.slider1-img
+  min-width: 1140px
+  width: 100%
+  height: 460px
+.dots
+  margin-left: 30%
+.dots li
+  float: left
+  margin: 0 10px
+  position: relative
+  bottom: 300px
+.dots button
+  background-color: rgba(230, 32, 32, 0)
+  border: 1px solid
+  border-color: white
+  display: inline-block
+  height: 15px
+  overflow: hidden
+  text-indent: -999em
+  width: 8px
+  position: relative
+  z-index: 99
+  -webkit-transition: all 0.5s linear 0s
+  transition: all 0.5s linear 0s
+  -webkit-transform: rotate(40deg)
+.dots button:focus
+  background-color: white
+.dots li:nth-child(1):before
+  content: url("../../../images/slider_line.png")
+  margin-right: 15px
+.dots li:nth-child(4):after
+  content: url("../../../images/slider_line.png")
+  margin-left: 15px
+
+
+
+@import "~slick-carousel/slick/slick.css"
+@import "~slick-carousel/slick/slick-theme.css"
+
+@import url(http://allfont.ru/allfont.css?fonts=academy-cond)
+
+
+
+.slider1
+  height: 460px
+  position: relative
+  & li h1
+    position: relative
+    bottom: 400px
+    color: white
+    font-size: 80px
+    font-weight: 600
+    text-align: center
+    font-family: 'Academy cond', arial
+    & span
+      font-size: 90px
+      font-family: 'Academy cond', arial
+

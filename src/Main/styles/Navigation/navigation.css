@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Arial Bold';
+  src: url("../fonts/arial_bold.ttf"); }
+
+.navigation li {
+  float: left; }
+  .navigation li img {
+    padding-right: 9px;
+    padding-left: 9px; }
+  .navigation li:last-child img{
+    display: none;
+    padding: 0;
+  }
+  .navigation li a {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Arial Bold", sans-serif; }
+    .navigation li a:hover {
+      color: #c29845; }
